@@ -27,7 +27,7 @@ Sub Prac05_1_1_Ans()
     評価 = Range("D4").Value
     
     ' 科目Aの合否
-    If 評価 = "S" Or 評価 = "A" Or 評価 = "b" Or 評価 = "C" Then
+    If 評価 = "S" Or 評価 = "A" Or 評価 = "B" Or 評価 = "C" Then
         Range("E4").Value = "合格"
     ElseIf 評価 = "D" Then
         Range("E4").Value = "不合格"
